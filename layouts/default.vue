@@ -47,7 +47,7 @@
         @click.stop="fixed = !fixed"
       >
         <v-icon>mdi-minus</v-icon>
-      </v-btn> <img src="/logo.png" alt="" width="30px">
+      </v-btn> <a href="/"><img src="/logo.png" alt="" width="30px"></a>
       <v-toolbar-title v-text="title" />
       <v-spacer />
       <v-btn

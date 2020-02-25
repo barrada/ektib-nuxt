@@ -1,5 +1,5 @@
 {
-  "name": "ektib",
+  "name": "ektib-nuxt",
   "version": "1.0.0",
   "description": "ektib social platform",
   "author": "Ahmed barrada",
@@ -24,5 +24,20 @@
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-prettier": "^3.0.1",
     "prettier": "^1.16.4"
-  }
+  },
+  "main": "nuxt.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barrada/ektib-nuxt.git"
+  },
+  "keywords": [
+    "ektib",
+    "social",
+    "platform"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barrada/ektib-nuxt/issues"
+  },
+  "homepage": "https://github.com/barrada/ektib-nuxt#readme"
 }

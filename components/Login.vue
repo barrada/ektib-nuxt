@@ -7,7 +7,7 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col cols="3" class="mx-auto">
+      <v-col cols="11" lg="3" xl="3" md="3" class="mx-auto">
         <v-form ref="form" v-model="valid" lazy-validation>
           <v-text-field       
             v-model="username"
@@ -74,6 +74,7 @@
 </template>
 <script>
 export default {
+	name:"Login",
     data () {
       return {
         show1: false,
